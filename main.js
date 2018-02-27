@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-let reg = new RegExp (process.argv[2]);
+let reg = new RegExp (process.argv[2],"i");
 let filesearch = process.argv[3];
 
 
